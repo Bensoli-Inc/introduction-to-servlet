@@ -11,11 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class AdddServlet extends HttpServlet
 {
-	public static void main(String[] args)
-	{
 		
-	}
-	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
 	{
 		int i = Integer.parseInt(req.getParameter("num1"));
@@ -23,15 +19,8 @@ public class AdddServlet extends HttpServlet
 		
 		int k = i+j;
 		k = k*k;
-//		PrintWriter out = res.getWriter();
-//		out.println("Result is " + k);
 		
-		req.setAttribute("k", k);
-		
-		//using request dispatcher or redirect to call a servlet inside a servlet
-		
-		RequestDispatcher rd = req.getRequestDispatcher("sqr");
-		rd.forward(req, res);
+		res.sendRedirect("sqrr?k="+k);
 	}
 	
 	
