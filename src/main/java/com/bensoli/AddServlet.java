@@ -23,8 +23,10 @@ public class AddServlet extends HttpServlet
 		
 		int k = i+j;
 		k = k*k;
-		PrintWriter out = res.getWriter();
-		out.println("Result is " + k);
+//		PrintWriter out = res.getWriter();
+//		out.println("Result is " + k);
+		
+		req.setAttribute("k", k);
 		
 		//using request dispatcher or redirect to call a servlet inside a servlet
 		
