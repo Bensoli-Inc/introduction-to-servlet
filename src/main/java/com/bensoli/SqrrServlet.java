@@ -15,7 +15,7 @@ public class SqrrServlet extends HttpServlet
 		
 		
 		PrintWriter out = res.getWriter();
-		out.println("Square of answer is " + k);
+		out.println("Square of answer iss " + k);
 	}
 
 }
