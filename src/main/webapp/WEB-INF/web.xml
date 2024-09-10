@@ -45,4 +45,25 @@
   		<url-pattern>/sqrr</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+	  	<servlet-name>addsqr</servlet-name>
+	  	<servlet-class>com.sessionManagement.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>addsqr</servlet-name>
+  		<url-pattern>/addsqr</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>sqradd</servlet-name>
+	  	<servlet-class>com.sessionManagement.SqrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>sqradd</servlet-name>
+  		<url-pattern>/sqra</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
