@@ -23,4 +23,26 @@
   		<url-pattern>/sqr</url-pattern>
   </servlet-mapping>
   
+  
+  <servlet>
+	  	<servlet-name>addd</servlet-name>
+	  	<servlet-class>com.bensoli.AdddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>addd</servlet-name>
+  		<url-pattern>/addd</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>sqrr</servlet-name>
+	  	<servlet-class>com.bensoli.SqrrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>sqrr</servlet-name>
+  		<url-pattern>/sqrr</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
