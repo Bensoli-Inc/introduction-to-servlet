@@ -66,4 +66,23 @@
   		<url-pattern>/sqra</url-pattern>
   </servlet-mapping>
   
+   <servlet>
+	  	<servlet-name>sqrcok</servlet-name>
+	  	<servlet-class>com.sessionCookie.SqrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>sqrcok</servlet-name>
+  		<url-pattern>/sqrcok</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	  	<servlet-name>addcok</servlet-name>
+	  	<servlet-class>com.sessionCookie.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>addcok</servlet-name>
+  		<url-pattern>/addcok</url-pattern>
+  </servlet-mapping>
 </web-app>
